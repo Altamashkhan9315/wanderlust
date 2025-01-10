@@ -4,7 +4,7 @@
     #filters{
       display:flex;
       position:static;
-      flex-wrap: wrap;
+      overflow-x: auto;
       justify-content: space-evenly;
       align-items: center;
     }
@@ -34,7 +34,11 @@
       margin-bottom: auto;
       margin-left: 2rem;
     }
-   
+     @media(max-width:450px){
+      .tax-toggle{
+        display:none;
+      }
+    }
   </style>
   
     <!-- <h3>All listings</h3> -->
